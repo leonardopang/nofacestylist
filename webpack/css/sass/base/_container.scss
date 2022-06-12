@@ -1,0 +1,11 @@
+.container-wrap {
+  padding: 0 2rem;
+}
+
+@media(min-width: 1220px) {
+  .container-wrap {
+    width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}

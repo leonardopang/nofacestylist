@@ -1,0 +1,111 @@
+.hero-header .container-wrap {
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+}
+.hero-header-siema--item img {
+  display: block;
+  width: 100%;
+}
+.hero-header_holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.hero-header .dots {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+.hero-header .dots__item {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  transition: 0.4s all;
+}
+.hero-header .dots__item--active,
+.hero-header .dots__item:hover {
+  background-color: #fff;
+  transition: 0.5s all;
+}
+.hero-header .arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.hero-header .arrows-left {
+  left: 6rem;
+}
+.hero-header .arrows-right {
+  right: 6rem;
+}
+/* Hero header Contato */
+.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+.banner_holder {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner_holder .title-container {
+  max-width: 356px;
+}
+.hero-header-siema--item {
+  position: relative;
+}
+@media (max-width: 960px) {
+  .banner {
+    height: 450px;
+  }
+  .banner_holder {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+  }
+  .hero-header .arrows-left{
+    left: 1rem;
+  }
+  .hero-header .arrows-right{
+    right: 1rem;
+  }
+  .hero-header_holder .title-container {
+    text-align: center;
+  }
+
+}
+
+
+
+@media (min-width: 1024px) {
+  .hero-header_holder {
+    height: 484px;
+  }
+  .banner {
+    background-position: left;
+    background-size: 25%;
+  }
+}

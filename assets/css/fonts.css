@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+
+
+/* === Títulos === */
+
+.title-huge {
+  font-size: 34px;
+  color: #404040;
+}
+.title-large {
+  font-size: 28px;
+  color: #404040;
+}
+.title-medium {
+  font-size: 24px;
+  color: #404040;
+}
+.title-small,
+.title-tiny {
+  font-size: 20px;
+  color: #404040;
+}
+
+/* === Textos === */
+
+.text-large {
+  font-size: 20px;
+}
+.text-medium {
+  font-size: 17px;
+}
+.text-small {
+  font-size: 15px;
+}
+.text-tiny {
+  font-size: 13px;
+}
+
+/* pesos */
+
+.weight-300{
+  font-weight: 300;
+}
+
+.weight-500{
+  font-weight: 500;
+}
+
+.weight-400{
+  font-weight: 400;
+}
+
+/* Buttons */
+
+.button-to-shop {
+  display: inline-block;
+  color: #fff;
+  background-color: #14142b;
+  border: 2px solid #14142b;
+  padding: 7px 22px;
+  box-sizing: border-box;
+  transition: 0.4s all;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .25px;
+}
+.button-to-shop:hover {
+  color: #14142b;
+  background-color: transparent;
+  transition: 0.5s all;
+}
+
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #9f9f9f;
+}
+
+.text-center {
+  text-align: center;
+}
+/* Espaçamentos textos */
+
+.padding-text{
+  padding: 0 4rem;
+}
+
+@media (min-width: 1024px) {
+  /* === Títulos === */
+
+  .title-huge {
+    font-size: 64px;
+  }
+  .title-large {
+    font-size: 56px;
+  }
+  .title-medium {
+    font-size: 48px;
+  }
+  .title-small {
+    font-size: 32px;
+  }
+  .title-tiny {
+    font-size: 24px;
+  }
+
+  /* === Textos === */
+
+  .text-medium {
+    font-size: 18px;
+  }
+}

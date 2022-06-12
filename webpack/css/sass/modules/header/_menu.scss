@@ -1,0 +1,132 @@
+.menu-item {
+  list-style: none;
+}
+
+.no-click>a {
+  pointer-events: none;
+}
+
+.no-click {
+  cursor: pointer;
+}
+
+.menu-item a {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #545454;
+  transition: 0.4s all;
+}
+
+.menu-item a:hover,
+.current-menu-item>a,
+.no-click:hover>a {
+  color: #115829;
+  text-decoration: line-through;
+  font-weight: 600;
+  transition: 0.6s all;
+}
+
+.menu-principal-container .menu .menu-item {
+  padding: 1rem 0;
+}
+
+.menu-principal-container .menu .sub-menu {
+  position: absolute;
+  top: -1000px;
+  opacity: 0;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  transition: opacity .3s;
+}
+
+.menu-principal-container .menu .menu-item-has-children:hover .sub-menu {
+  top: 70px;
+  opacity: 1;
+  transition: opacity .8s, top .5s;
+}
+
+.menu-principal-container .menu .sub-menu .menu-item {
+  background: #fff;
+  position: relative;
+}
+
+.menu-principal-container .menu .sub-menu .menu-item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50%;
+  top: 0;
+  left: -50%;
+  box-sizing: border-box;
+  min-height: 57px;
+  background: #fff;
+  z-index: 2;
+}
+
+.menu-principal-container .menu .menu-item {
+  padding: 0 0 0.5rem;
+  display: block;
+  width: 100%;
+}
+
+.menu-principal-container .menu .sub-menu {
+  display: none;
+  position: inherit;
+  padding-top: 1rem;
+  transition: opacity .3s;
+}
+
+.menu-principal-container .menu .menu-item-has-children .sub-menu.active {
+  display: block;
+  top: initial;
+  transition: opacity .8s, top .5s;
+}
+
+.menu-principal-container .menu .sub-menu .menu-item {
+  background: #fff;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.menu-principal-container .menu-item-has-children .js-open-submenu {
+  position: relative;
+  width: 20px;
+  display: block;
+}
+
+.menu-principal-container .menu-item-has-children .js-open-submenu::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  color: #115829;
+  top: 7px;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 900;
+}
+
+
+@media(min-width: 1024px) {
+  .menu-loja_holder .menu {
+    display: flex;
+    gap: 11px;
+  }
+
+  .menu-loja_holder .menu-item a {
+    display: inline-block;
+  }
+
+  .menu-loja_holder .menu-item a img {
+    display: block;
+    width: 24px;
+    object-fit: contain;
+  }
+}

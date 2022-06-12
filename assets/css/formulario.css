@@ -1,0 +1,261 @@
+.contato_holder .title-container .title-small {
+  color: #131718;
+}
+.contato_holder .title-container .text-medium {
+  color: #949494 !important;
+  font-weight: 300;
+}
+
+.form-construcao {
+  margin-top: 2rem;
+}
+
+.form-template input[type="text"],
+.form-template input[type="email"],
+.form-template textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+  box-sizing: border-box;
+}
+
+.form-template label {
+  font-size: 14px;
+  color: #434343;
+  font-weight: 600;
+}
+
+.wpcf7-list-item {
+  margin-left: 0;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.wpcf7-list-item label {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.form-template input[type="submit"] {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #131718;
+  padding: 13px 30px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.form-template input[type="submit"]:hover {
+  opacity: .5;
+}
+
+.wpcf7-list-item-label {
+  margin-left: .5rem;
+  font-size: 14px;
+}
+
+.wpcf7-list-item-label strong {
+  color: #737373;
+  font-size: 14px;
+}
+
+/* Login Register */
+
+#loginform input[type="text"], #loginform input[type="password"], #loginform input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(50, 50, 71, 0.08), 0px 0px 1px rgba(50, 50, 71, 0.2);
+}
+
+#loginform input[type="submit"], .checkout-button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+  background-color: #404040 !important;
+  border: 2px solid #404040 !important;
+  color: #fff !important;
+  cursor: pointer;
+  font-weight: 700 !important;
+  margin-top: 1rem;
+}
+
+#loginform input[type="submit"]:hover, .checkout-button:hover{
+  background-color: transparent !important;
+  color: #404040 !important;
+  transition: .2s all !important;
+}
+
+.login-form {
+  max-width: 535px;
+  width: 100%;
+  margin: 0 auto 0 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 4rem;
+}
+
+.image-login-register{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-register--item .title-container{
+  margin-bottom: 2rem;
+}
+
+.button-register {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+  background-color: #505780;
+  border: 2px solid #505780;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.button-register:hover{
+  background-color: transparent;
+  color: #505780;
+  transition: .2s all;
+}
+
+.woocommerce-password-strength {
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Cadastro */
+
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+  border: none;
+  padding: 0;
+  margin: 2em 0;
+  text-align: left;
+}
+
+.register-form {
+  max-width: 450px;
+  margin: 0 auto 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration-form h2 {
+  display: none;
+}
+
+.register input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+  background-color: #404040;
+  border: 2px solid #404040;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.register input[type="submit"]:hover{
+  background-color: transparent !important;
+}
+
+.register .show-password-input {
+  top: 24px !important;
+}
+
+.woocommerce-simple-registration-login-link {
+  padding-left: 5px;
+}
+
+.woocommerce-privacy-policy-link {
+  color: #000;
+  font-weight: bolder;
+}
+
+.woocommerce-password-hint {
+  font-size: 12px;
+}
+
+/* Newsletter */
+
+.form-newsletter input[type="email"]{
+  border: none;
+  border-bottom: 2px solid #BBBBBB;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.form-newsletter input[type="submit"] {
+  width: auto;
+  float: right;
+  background-color: #14142B;
+  font-size: 13px;
+  letter-spacing: .25px;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+/* Finalizar Compra */
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+  margin: 0;
+  outline: 0;
+  line-height: normal;
+  width: 100%;
+  display: block;
+  margin-top: 0.5rem;
+  border: none;
+  box-shadow: 0px 1px 2px rgb(50 50 71 / 8%), 0px 0px 1px rgb(50 50 71 / 20%) !important;
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.woocommerce-checkout .select2-container--focus .select2-selection {
+  box-shadow: 0px 1px 2px rgb(50 50 71 / 8%), 0px 0px 1px rgb(50 50 71 / 20%) !important;
+  border: none;
+}
+
+.woocommerce-checkout .select2-container .select2-selection--single {
+  height: 48px;
+  border: none;
+  box-shadow: 0px 1px 2px rgb(50 50 71 / 8%), 0px 0px 1px rgb(50 50 71 / 20%) !important;
+}
+.woocommerce-checkout .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: 48px;
+}
+.woocommerce-checkout .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 46px;
+}
+
+
+@media (min-width: 1024px){
+  .login-register--item {
+    height: calc(100vh - 92px);
+  }
+  
+}
